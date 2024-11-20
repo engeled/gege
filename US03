@@ -1,0 +1,19 @@
+feature: US03: Herramientas de gestión del tiempo
+
+Como usuario, quiero herramientas que me ayuden a gestionar mi tiempo, para equilibrar mis responsabilidades laborales y mi descanso.
+
+Scenario 1:
+
+Given que el usuario está configurando su perfil nocturno
+
+When el usuario completa los campos de sueño
+
+Then recibirá recomendaciones adaptadas
+
+Scenario 2:
+
+Given que el usuario ha indicado problemas de sueño
+
+When la plataforma detecta hábitos irregulares
+
+Then enviará alertas de mejora de descanso
