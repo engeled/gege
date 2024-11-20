@@ -1,0 +1,19 @@
+feature: US01: Acceso a recomendaciones personalizadas
+
+Como usuario, quiero acceder a recomendaciones personalizadas para mejorar mi sueño, para optimizar mi descanso en horarios atípicos.
+
+Scenario 1:
+
+Given que el usuario está configurando su perfil nocturno,
+
+When el usuario completa los campos de sueño,
+
+Then recibirá recomendaciones adaptadas.
+
+Scenario 2:
+
+Given que el usuario ha indicado problemas de sueño,
+
+When la plataforma detecta hábitos irregulares,
+
+Then enviará alertas de mejora de descanso.
