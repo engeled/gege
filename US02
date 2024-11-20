@@ -1,0 +1,20 @@
+feature: US02: Planes de nutrición adaptados
+
+Como usuario, quiero recibir planes de nutrición adaptados a mis horarios, para mantener una dieta equilibrada.
+
+Scenario 1:
+
+Given que el usuario solicita información de alimentación
+
+When el usuario ingresa sus horarios de comida
+
+Then recibirá planes nutricionales personalizados
+
+Scenario 2:
+
+Given que el usuario tiene un historial de comidas inadecuadas
+
+When la plataforma analiza su historial
+
+Then se le enviarán recomendaciones para mejorar la dieta
+
